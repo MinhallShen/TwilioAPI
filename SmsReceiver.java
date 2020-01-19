@@ -20,7 +20,7 @@ public class SmsReceiver {
         Message message = Message
                 .creator(new PhoneNumber("+16473232569"), // to
                         new PhoneNumber("+19177465846"), // from
-                        "I love guys")
+                        "TEXT HERE")
                 .create();
 
         System.out.println(message.getSid());
